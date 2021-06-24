@@ -2,7 +2,7 @@ require "http/client"
 require "json"
 
 module Crambda
-  VERSION = "0.2.0"
+  VERSION = "0.3.0"
 
   struct Context
     getter function_name : String
